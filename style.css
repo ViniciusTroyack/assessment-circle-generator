@@ -1,0 +1,32 @@
+/* DEIXA OS ELEMENTOS DE LINHA CENTRALIZADOS */
+#containerButton {
+    text-align: center;
+}
+
+/* ESTILIZA OS BOTÕES DE GERAR E RESETAR */
+.button {
+    height: 40px;
+    width: 120px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* DEFINE COR E TAMANHO MINIMO PRA SEÇÃO DOS CIRCULOS */
+#containerCircles {
+    background-color: #dddddd;
+    min-height: 400px;
+}
+
+/* CENTRILIZA NA VERTICAL E HORIZONTAL O TÍTULO */
+#containerCircles h1 {
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+}
+
+/* FAZ COM QUE OS DISCOS FIQUEM UM DO LADO DO OUTRO */
+#boxStorage {
+    display: flex;
+    flex-flow: row wrap;
+}
