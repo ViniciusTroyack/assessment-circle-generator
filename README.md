@@ -6,7 +6,7 @@ Para começar, acesse [este link](https://gitlab.com/kenzie-academy-brasil/se/fe
 
 No repositório clonado, foi fornecido o código HTML e CSS. Portanto, precisamos nos preocupar somente em entender o que esses códigos estão fazendo.
 
-Nesta entrega você irá criar um gerador de circulos, veja o exemplo:
+Nesta entrega você irá criar um gerador de círculos, veja o exemplo:
 
 ![](./click_generator.gif)
 
@@ -18,7 +18,7 @@ Organizar os códigos abaixo, de modo que seu projeto tenha o mesmo comportament
 
 Como os códigos HTML e CSS já estão prontos, agora é hora de partir para o JavaScript.
 
-No exemplo acima, vimos que **ao cliclar no botão GENERATE**, novos circulos de cores diferentes são criados.
+No exemplo acima, vimos que **ao cliclar no botão GENERATE**, novos círculos de cores diferentes são criados.
 
 - Passo 1: Adicionar o evento de click no botão GENERATE.
 
@@ -29,7 +29,7 @@ buttonGenerate.addEventListener("click", () => {
 });
 ```
 
-- Passo 2: Criar uma função que gera novos circulos.
+- Passo 2: Criar uma função que gera novos círculos.
 
 ```js
 const createCircle = (color) => {
@@ -55,9 +55,9 @@ const randomColor = () => {
 
 ## Resetando o HTML
 
-No código HTML fornecido, vimos que o local de armazenamento dos circulos é a div com o id **boxStorage**. Com essa informação, fica muito simples resetar o conteúdo dessa div.
+No código HTML fornecido, vimos que o local de armazenamento dos círculos é a div com o id **boxStorage**. Com essa informação, fica muito simples resetar o conteúdo dessa div.
 
-No exemplo acima, **ao clicar no botão RESET** todos os circulos somem.
+No exemplo acima, **ao clicar no botão RESET** todos os círculos somem.
 
 - Passo 1: Adicionar o evento de click no botão RESET.
 
