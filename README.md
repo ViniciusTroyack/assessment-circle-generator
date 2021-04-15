@@ -12,13 +12,13 @@ Nesta entrega você irá criar um gerador de círculos, veja o exemplo:
 
 ## Seu objetivo:
 
-Organizar os códigos abaixo, de modo que seu projeto tenha o mesmo comportamente que o exemplo fornecido anteriormente.
+Organizar os códigos abaixo, de modo que seu projeto tenha o mesmo comportamento que o exemplo fornecido anteriormente.
 
 ## Início
 
 Como os códigos HTML e CSS já estão prontos, agora é hora de partir para o JavaScript.
 
-No exemplo acima, vimos que **ao cliclar no botão GENERATE**, novos círculos de cores diferentes são criados.
+No exemplo acima, vimos que **ao clicar no botão GENERATE**, novos círculos de cores diferentes são criados.
 
 - Passo 1: Adicionar o evento de click no botão GENERATE.
 
@@ -43,7 +43,7 @@ const createCircle = (color) => {
 };
 ```
 
-- Passo 3: Criar uma função escolha que cores de forma aleatória.
+- Passo 3: Criar uma função que defina as cores de forma aleatória.
 
 ```js
 const randomColor = () => {
