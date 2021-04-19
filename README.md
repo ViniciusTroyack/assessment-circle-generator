@@ -8,7 +8,7 @@ No repositório clonado, foi fornecido o código HTML e CSS. Portanto, precisamo
 
 Nesta entrega você irá criar um gerador de círculos, veja o exemplo:
 
-![](./click_generator.gif)
+![](https://files-kenzie-academy-brasil.s3.amazonaws.com/q1/sprint3/click_generator.gif)
 
 ## Seu objetivo:
 
@@ -29,14 +29,14 @@ buttonGenerate.addEventListener("click", () => {
 });
 ```
 
-- Passo 2: Criar uma função que gera novos círculos.
+- Passo 2: Criar uma função que gere novos círculos.
 
 ```js
 const createCircle = (color) => {
   const newCircle = document.createElement("div");
   newCircle.style.height = "70px";
   newCircle.style.width = "70px";
-  newCircle.style.border = `solid 2px ${color}`;
+  newCircle.style.border = `solid 4px ${color}`;
   newCircle.style.borderRadius = "50%";
 
   return newCircle;
@@ -74,7 +74,3 @@ buttonReset.addEventListener("click", () => {
 const boxStorage = document.getElementById("boxStorage");
 boxStorage.innerHTML = "";
 ```
-
-## Envio
-
-Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, por favor, envie a url de seu Gitlab Pages (ex: https://nomedeusuario.gitlab.io/circle-generator/) e, no GitLab, adicione o grupo `ka-br-<sua-turma>-correcoes` como membro do seu projeto com a permissão "Reporter".
