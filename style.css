@@ -30,3 +30,10 @@
   display: flex;
   flex-flow: row wrap;
 }
+
+/* ESTILO PADRÃO PARA CADA UM DOS CÍRCULOS */
+#boxStorage .circle{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}

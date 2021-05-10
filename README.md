@@ -34,10 +34,10 @@ buttonGenerate.addEventListener("click", () => {
 ```js
 const createCircle = (color) => {
   const newCircle = document.createElement("div");
-  newCircle.style.height = "70px";
-  newCircle.style.width = "70px";
   newCircle.style.border = `solid 4px ${color}`;
-  newCircle.style.borderRadius = "50%";
+
+  // ADICIONA A CLASSE QUE POSSUI OS ESTILOS PADRÃO PARA OS CÍRCULOS
+  newCircle.classList.add('circle');
 
   return newCircle;
 };
