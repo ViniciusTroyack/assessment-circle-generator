@@ -1,4 +1,4 @@
-# Entrega: Circle generator
+# Atividade: Circle generator
 
 Para começar, acesse [este link](https://gitlab.com/kenzie-academy-brasil/se/fe/getting-started-with-javascript/assessment-circle-generator), faça o fork e clone o repositório.
 
