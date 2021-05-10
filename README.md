@@ -36,7 +36,7 @@ const createCircle = (color) => {
   const newCircle = document.createElement("div");
   newCircle.style.border = `solid 4px ${color}`;
 
-  // ADICIONA A CLASSE QUE POSSUI OS ESTILOS PADRÃO PARA OS CÍRCULOS
+  // ADICIONA A CLASSE QUE POSSUI OS ESTILOS PADRÃO DOS CÍRCULOS
   newCircle.classList.add('circle');
 
   return newCircle;
